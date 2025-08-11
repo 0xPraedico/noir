@@ -15,7 +15,7 @@ sidebar_position: 11
 When one type is required in Noir code but a different type is given, the compiler will typically issue
 a type error. There are a few cases however where the compiler will instead automatically perform a
 type coercion. These are typically limited to a few type pairs where converting from one to the other
-will not sacrifice performance or correctness. Currently, Noir will will try to perform the following
+will not sacrifice performance or correctness. Currently, Noir will try to perform the following
 type coercions:
 
 | Actual Type    | Expected Type               |
