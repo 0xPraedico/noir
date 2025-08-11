@@ -130,7 +130,7 @@ fn log_area<T: Area>(shape: T) {
 ```
 
 Both are equivalent. Using `where` is preferable when there are many trait bounds and it's clearer to have
-them separate from the types the are applying bounds to.
+them separate from the types they are applying bounds to.
 
 ## Invoking trait methods
 
